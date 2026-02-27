@@ -1,4 +1,3 @@
-#Import
 import pygame
 
 #Screen Settings
@@ -214,7 +213,7 @@ waves = [[20, 0, 0, 0, 0, 0 ,0 ,0, 0, 0, 0, 0], #1
     [0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0, 1]] #15
 
 #Tower Settings
-#Tower Cose
+#Tower Cost
 Tacost = 75
 Tccost = 100
 Tmcost = 125
@@ -265,3 +264,4 @@ class VolumeBar(pygame.sprite.Sprite):
                 pygame.draw.rect(screen, self.bg, [self.x + (i*45), self.y, width/40, height/15])
             else:
                 pygame.draw.rect(screen, Dgray, [self.x + (i*45), self.y, width/40, height/15])
+
